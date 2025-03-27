@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+
+  margin-top: 70px;
+}
+.btn {
+  margin-top: 20px;
+}
+.post {
+  padding: 15px;
+  border: 1px solid rgba(3, 3, 3, 0.512);
+  border-radius: 5px;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.348);
+}
+.post:hover {
+  border: 3px dashed green;
+  border-radius: 15px;
+  padding: 20px;
+  transition: 0.5s;
+}
